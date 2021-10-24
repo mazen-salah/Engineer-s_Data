@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(brightness: Brightness.light)
-              .copyWith(secondary: Colors.blueGrey)),
+              .copyWith(primary: Colors.blueGrey)),
       darkTheme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(brightness: Brightness.dark)
               .copyWith(secondary: Colors.blueGrey)),
