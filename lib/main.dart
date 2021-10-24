@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'home_view.dart';
+
 void main() async {
   runApp(const MyApp());
 }
@@ -18,6 +20,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(brightness: Brightness.dark)
               .copyWith(secondary: Colors.blueGrey)),
+      home: const Home(),
     );
   }
 }
