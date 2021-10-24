@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
           currentIndex: _currentIndex,
           items: const [
             BottomNavigationBarItem(
-              icon: Icon(Icons.menu),
+              icon: Icon(Icons.home),
               label: "Main Menu",
             ),
             BottomNavigationBarItem(
