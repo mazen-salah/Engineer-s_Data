@@ -42,12 +42,16 @@ class ListItem extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: Container(
-            child: Center(child: Padding(
+            child: Center(
+                child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text(title,style: const TextStyle(fontSize: 20,color: Colors.white),),
+              child: Text(
+                title,
+                style: const TextStyle(fontSize: 20, color: Colors.white),
+              ),
             )),
             decoration: BoxDecoration(
-              color: Colors.blueGrey,
+                color: Colors.blueGrey,
                 borderRadius: BorderRadius.circular(20)),
           ),
         ),

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'screens/main_menu.dart';
 import 'screens/news_page.dart';
 
-
 class Home extends StatefulWidget {
   static String id = 'HomeScreen';
 
