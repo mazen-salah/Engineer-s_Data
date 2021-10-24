@@ -10,4 +10,12 @@ const coursesData = [
   Course(title: 'Structure', link: 'https://drive.google.com/drive/folders/1VaeWKDM-bLXat9okGVIVZFC3u9kkSTqi', id: 'c6', image: 'https://ssabwebsitecdn.azureedge.net/-/media/images/ssab-weathering/new-structure-and-bridges/1920x1080-weathering-bridges-and-structures.jpg?m=20201009062153'),
 ];
 
+const mainMenuData = [
+  Menu(title: 'Courses'),
+  Menu(title: 'Drives'),
+  Menu(title: 'Social media'),
+  Menu(title: 'Alexandria Engineering libraries'),
+  Menu(title: 'Timetable'),
+  Menu(title: 'Teams code'),
+  Menu(title: 'Office hours'),
 ];
