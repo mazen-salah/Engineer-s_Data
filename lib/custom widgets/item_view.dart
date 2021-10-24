@@ -28,3 +28,30 @@ class GridItem extends StatelessWidget {
     );
   }
 }
+
+class ListItem extends StatelessWidget {
+  final String title;
+
+  const ListItem(this.title, {Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () {},
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Center(
+          child: Container(
+            child: Center(child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(title,style: const TextStyle(fontSize: 20,color: Colors.white),),
+            )),
+            decoration: BoxDecoration(
+              color: Colors.blueGrey,
+                borderRadius: BorderRadius.circular(20)),
+          ),
+        ),
+      ),
+    );
+  }
+}
