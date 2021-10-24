@@ -4,6 +4,8 @@ import 'package:flutter/cupertino.dart';
 import '../app_data.dart';
 
 class CoursesPage extends StatelessWidget {
+  static String id = 'CoursesPage';
+
   const CoursesPage({Key? key}) : super(key: key);
 
   @override
@@ -12,7 +14,7 @@ class CoursesPage extends StatelessWidget {
       padding: const EdgeInsets.all(25),
       children: coursesData
           .map((courseData) =>
-          GridItem(courseData.title, courseData.image, courseData.id))
+              GridItem(courseData.title, courseData.image, courseData.id))
           .toList(),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
