@@ -1,5 +1,5 @@
 class Menu {
-  final String title;
+  final String title, navId;
 
-  const Menu({required this.title});
+  const Menu({required this.title, required this.navId});
 }
