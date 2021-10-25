@@ -9,7 +9,8 @@ class MainMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children:
-            mainMenuData.map((menuData) => ListItem(menuData.title)).toList());
+        children: mainMenuData
+            .map((menuData) => ListItem(menuData.title, menuData.navId))
+            .toList());
   }
 }

@@ -1,3 +1,4 @@
+import 'package:engineers_data/screens/courses_page.dart';
 import 'package:flutter/material.dart';
 import 'home_view.dart';
 
@@ -12,7 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Engineer's Data",
       themeMode: ThemeMode.system,
       theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(brightness: Brightness.light)
@@ -20,7 +20,10 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(brightness: Brightness.dark)
               .copyWith(secondary: Colors.blueGrey)),
-      home: const Home(),
+      routes: {
+        '/': (context) => const Home(),
+        CoursesPage.id: (context) => const CoursesPage(),
+      },
     );
   }
 }
