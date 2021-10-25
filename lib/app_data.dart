@@ -7,50 +7,56 @@ const coursesData = [
       link:
           'https://drive.google.com/drive/folders/1VV5Qdyh7rd0FYgEXRsPULR7_YE4PQwzl',
       id: 'C1',
-      image: 'https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg'),
+      image: 'images/Math.jpeg',
+      navId: ''),
   Course(
       title: 'Mechanics 3',
       link:
           'https://drive.google.com/drive/folders/1V_1ZUzDJQZvYhnrIPdKcG2z40_5gIVy3',
       id: 'c2',
       image:
-          'https://lastmomenttuitions.com/wp-content/uploads/2019/09/dsc-mths-.jpg'),
+          'images/Mechanics.jpg',
+      navId: ''),
   Course(
       title: 'Circuits 1',
       link:
           'https://drive.google.com/drive/folders/1VRu-UWHQqJ8UdifNpe_6TkmOmyeUvHi7',
       id: 'C3',
       image:
-          'https://i.pinimg.com/originals/2e/5c/55/2e5c5545eda7965d8710235e25acfc74.png'),
+          'images/circuits.png',
+      navId: ''),
   Course(
       title: 'Information transmission',
       link:
           'https://drive.google.com/drive/folders/1VU-_DZgBtEwS-7PmxPTmrvqORFkgtEB6',
       id: 'c4',
       image:
-          'https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/what-is-the-internet-and-how-does-the-internet-work-1564562861866.jpg'),
+          'images/informationTransmission.jpg',
+      navId: ''),
   Course(
       title: 'Energy',
       link:
           'https://drive.google.com/drive/folders/1VSMCle0DraMUjOQQGAWR0ofO1YQHyWyn',
       id: 'C5',
       image:
-          'https://www.zanetacorpgroup.com/wp-content/uploads/2020/03/enegyy.jpg'),
+          'images/energy.jpg',
+      navId: ''),
   Course(
       title: 'Structure',
       link:
           'https://drive.google.com/drive/folders/1VaeWKDM-bLXat9okGVIVZFC3u9kkSTqi',
       id: 'c6',
       image:
-          'https://ssabwebsitecdn.azureedge.net/-/media/images/ssab-weathering/new-structure-and-bridges/1920x1080-weathering-bridges-and-structures.jpg?m=20201009062153'),
+          'images/structures.jpg',
+      navId: ''),
 ];
 
 const mainMenuData = [
-  Menu(title: 'Courses'),
-  Menu(title: 'Drives'),
-  Menu(title: 'Social media'),
-  Menu(title: 'Alexandria Engineering libraries'),
-  Menu(title: 'Timetable'),
-  Menu(title: 'Teams code'),
-  Menu(title: 'Office hours'),
+  Menu(title: 'Courses', navId: 'CoursesPage'),
+  Menu(title: 'Drives', navId: 'DrivesPage'),
+  Menu(title: 'Social media', navId: 'SocialMedia'),
+  Menu(title: 'Alexandria Engineering libraries', navId: 'Library'),
+  Menu(title: 'Timetable', navId: 'TimeTable'),
+  Menu(title: 'Teams code', navId: 'TeamsCodes'),
+  Menu(title: 'Office hours', navId: 'OfficeHours'),
 ];
