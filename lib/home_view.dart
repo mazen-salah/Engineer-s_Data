@@ -23,36 +23,45 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset('images/icons/ic_launcher.png'),
-            const Text(
-              'Engineer\'s Data',
-              style: TextStyle(
-                fontFamily: 'Pacifico',
-              ),
-            ),
-          ],
-        ),
+    return Stack(children: [
+      Image.asset(
+        'images/434d3b3816c3cc208547b7e3e7f19602.jpg',
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        fit: BoxFit.cover,
       ),
-      body: _children[_currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-          onTap: onTabTapped,
-          currentIndex: _currentIndex,
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: "Main Menu",
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.message),
-              label: "News",
-            ),
-          ]),
-    );
+      Scaffold(
+        backgroundColor: Colors.transparent,
+        appBar: AppBar(
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset('images/icons/ic_launcher.png'),
+              const Text(
+                'Engineer\'s Data',
+                style: TextStyle(
+                  fontFamily: 'Pacifico',
+                ),
+              ),
+            ],
+          ),
+        ),
+        body: _children[_currentIndex],
+        bottomNavigationBar: BottomNavigationBar(
+            onTap: onTabTapped,
+            currentIndex: _currentIndex,
+            items: const [
+              BottomNavigationBarItem(
+                icon: Icon(Icons.home),
+                label: "Main Menu",
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.message),
+                label: "News",
+              ),
+            ]),
+      ),
+    ]);
   }
 
   void onTabTapped(int index) {
