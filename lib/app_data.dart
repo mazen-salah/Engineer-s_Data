@@ -55,3 +55,9 @@ const mainMenuData = [
   Menu(title: 'Teams code', navId: 'TeamsCodes'),
   Menu(title: 'Office hours', navId: 'OfficeHours'),
 ];
+
+const drives = [
+  Menu(title: 'Drive 2025', navId: 'https://drive.google.com/drive/folders/1UBVFdQgpjOWPEZdGtdW7_8YdHld-y3ur'),
+  Menu(title: 'Drive 2024', navId: 'https://drive.google.com/drive/folders/1vSLjHRBBAOZ5zTuQNmNfQtKADqt_El0z'),
+  Menu(title: 'Drive 2023', navId: 'https://drive.google.com/drive/folders/14WdRpp_SMEqHXi8-PA-aYzS-N-6-sfEr'),
+];
