@@ -7,10 +7,28 @@ class MainMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: mainMenuData
-            .map((menuData) => ListItem(menuData.title, menuData.navId))
-            .toList());
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          const SafeArea(
+              child: Text(
+                'Main Menu:',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    fontFamily: "Pacifico"),
+              )),
+
+          SingleChildScrollView(
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: mainMenuData
+                    .map((menuData) => ListItem(menuData.title, menuData.navId))
+                    .toList()),
+          ),
+        ],
+      ),
+    );
   }
 }

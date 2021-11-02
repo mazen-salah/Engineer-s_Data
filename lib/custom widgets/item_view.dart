@@ -53,7 +53,7 @@ class ListItem extends StatelessWidget {
           child: Container(
             child: Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Text(
                     title,
                     style: const TextStyle(fontSize: 20, color: Colors.white),
@@ -61,7 +61,7 @@ class ListItem extends StatelessWidget {
                 )),
             decoration: BoxDecoration(
                 color: Colors.blueGrey,
-                borderRadius: BorderRadius.circular(20)),
+                borderRadius: BorderRadius.circular(15)),
           ),
         ),
       ),
