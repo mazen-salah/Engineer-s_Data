@@ -47,17 +47,12 @@ const coursesData = [
 ];
 
 const mainMenuData = [
-  Menu(title: 'Courses', navId: 'CoursesPage'),
-  Menu(title: 'Drives', navId: 'DrivesPage'),
-  Menu(title: 'Social media', navId: 'SocialMedia'),
-  Menu(title: 'Alexandria Engineering libraries', navId: 'Library'),
-  Menu(title: 'Timetable', navId: 'TimeTable'),
-  Menu(title: 'Teams code', navId: 'TeamsCodes'),
-  Menu(title: 'Office hours', navId: 'OfficeHours'),
+  Menu(title: 'Courses', navId: 'CoursesPage', url: ''),
+  Menu(title: 'Drives', navId: 'DrivesPage', url: ''),
+  Menu(title: 'Social media', navId: 'SocialMedia', url: ''),
+  Menu(title: 'Teams code', navId: 'TeamsCodes', url: ''),
+  Menu(title: 'Office hours', navId: 'OfficeHours', url: ''),
 ];
 
 const drives = [
-  Menu(title: 'Drive 2025', navId: 'https://drive.google.com/drive/folders/1UBVFdQgpjOWPEZdGtdW7_8YdHld-y3ur'),
-  Menu(title: 'Drive 2024', navId: 'https://drive.google.com/drive/folders/1vSLjHRBBAOZ5zTuQNmNfQtKADqt_El0z'),
-  Menu(title: 'Drive 2023', navId: 'https://drive.google.com/drive/folders/14WdRpp_SMEqHXi8-PA-aYzS-N-6-sfEr'),
 ];
