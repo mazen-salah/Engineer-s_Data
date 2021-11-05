@@ -50,6 +50,7 @@ const mainMenuData = [
   Menu(title: 'Courses', navId: 'CoursesPage', url: ''),
   Menu(title: 'Drives', navId: 'DrivesPage', url: ''),
   Menu(title: 'Social media', navId: 'SocialMedia', url: ''),
+  Menu(title: 'Alexandria Engineering libraries', navId: 'Web', url: 'https://alexenglibraries.blogspot.com/'),
   Menu(title: 'Teams code', navId: 'TeamsCodes', url: ''),
   Menu(title: 'Office hours', navId: 'OfficeHours', url: ''),
 ];
