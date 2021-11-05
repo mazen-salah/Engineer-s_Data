@@ -54,6 +54,10 @@ const mainMenuData = [
   Menu(title: 'Timetable', navId: 'Web', url: 'https://drive.google.com/file/d/1cScJ_0BiN_JTz4Fip5g0GMksVF_L-x4j/view?usp=sharing'),
   Menu(title: 'Teams code', navId: 'TeamsCodes', url: ''),
   Menu(title: 'Office hours', navId: 'OfficeHours', url: ''),
+  Menu(
+      title: 'Office hours',
+      navId: 'Web',
+      url: 'https://justpaste.it/electroOfficeHours'),
 ];
 
 const drives = [
