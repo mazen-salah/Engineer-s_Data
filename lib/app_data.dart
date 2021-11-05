@@ -57,4 +57,19 @@ const mainMenuData = [
 ];
 
 const drives = [
+  Menu(
+      title: 'Drive 2025',
+      navId: 'Web',
+      url:
+          'https://drive.google.com/drive/folders/1UEyZSs882otK697hedRQsQ6eLWkG4yBZ'),
+  Menu(
+      title: 'Drive 2024',
+      navId: 'Web',
+      url:
+          'https://drive.google.com/drive/folders/1vSLjHRBBAOZ5zTuQNmNfQtKADqt_El0z'),
+  Menu(
+      title: 'Drive 2023',
+      navId: 'Web',
+      url:
+          'https://drive.google.com/drive/folders/14WdRpp_SMEqHXi8-PA-aYzS-N-6-sfEr'),
 ];
