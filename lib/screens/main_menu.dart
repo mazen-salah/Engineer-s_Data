@@ -24,7 +24,7 @@ class MainMenu extends StatelessWidget {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: mainMenuData
-                    .map((menuData) => ListItem(menuData.title, menuData.navId))
+                    .map((menuData) => ListItem(menuData.title, menuData.navId,menuData.url))
                     .toList()),
           ),
         ],

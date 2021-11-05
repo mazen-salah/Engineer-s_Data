@@ -35,7 +35,7 @@ class DrivesScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: drives
                           .map((driveData) =>
-                              ListItem(driveData.title, driveData.navId))
+                              ListItem(driveData.title, driveData.navId,driveData.url))
                           .toList()),
                 ),
               ],

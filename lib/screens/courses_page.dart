@@ -37,7 +37,7 @@ class CoursesPage extends StatelessWidget {
                 padding: const EdgeInsets.all(25),
                 children: coursesData
                     .map((courseData) => GridItem(courseData.title,
-                        courseData.image, courseData.id, courseData.navId))
+                        courseData.image, courseData.id, courseData.navId,courseData.url))
                     .toList(),
                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                     maxCrossAxisExtent: 200,
