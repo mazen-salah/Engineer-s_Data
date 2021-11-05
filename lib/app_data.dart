@@ -55,6 +55,10 @@ const mainMenuData = [
   Menu(title: 'Teams code', navId: 'TeamsCodes', url: ''),
   Menu(title: 'Office hours', navId: 'OfficeHours', url: ''),
   Menu(
+      title: 'Teams code',
+      navId: 'Web',
+      url: 'https://justpaste.it/electroTeamsCodes'),
+  Menu(
       title: 'Office hours',
       navId: 'Web',
       url: 'https://justpaste.it/electroOfficeHours'),
