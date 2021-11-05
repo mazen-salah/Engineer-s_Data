@@ -2,19 +2,21 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class GridItem extends StatelessWidget {
-  final String id, title, image, navId;
+  final String id, title, image, navId, url;
 
-  const GridItem(this.title,
-      this.image,
-      this.id,
-      this.navId, {
-        Key? key,
-      }) : super(key: key);
+  const GridItem(
+    this.title,
+    this.image,
+    this.id,
+    this.navId,
+    this.url, {
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => selectMenu(context, navId),
+      onTap: () => selectMenu(context, navId, url),
       child: Column(
         children: [
           Expanded(
@@ -39,26 +41,27 @@ class GridItem extends StatelessWidget {
 }
 
 class ListItem extends StatelessWidget {
-  final String title, navId;
+  final String title, navId, url;
 
-  const ListItem(this.title, this.navId, {Key? key}) : super(key: key);
+  const ListItem(this.title, this.navId, this.url, {Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => selectMenu(context, navId),
+      onTap: () => selectMenu(context, navId, url),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: Container(
             child: Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Text(
-                    title,
-                    style: const TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                )),
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                title,
+                style: const TextStyle(fontSize: 20, color: Colors.white),
+              ),
+            )),
             decoration: BoxDecoration(
                 color: Colors.blueGrey,
                 borderRadius: BorderRadius.circular(15)),
@@ -69,6 +72,6 @@ class ListItem extends StatelessWidget {
   }
 }
 
-void selectMenu(BuildContext context, navId) {
-  Navigator.of(context).pushNamed(navId);
+void selectMenu(BuildContext context, navId, url) {
+  Navigator.of(context).pushNamed(navId, arguments: {'url': url});
 }
