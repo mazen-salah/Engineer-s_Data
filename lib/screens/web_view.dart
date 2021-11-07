@@ -18,12 +18,11 @@ class _WebPageState extends State<WebPage> {
     final url = routeArg['url'];
 
     return Scaffold(
-      appBar: AppBar(),
-      body: WebView(
-        initialUrl: url,
-        javascriptMode: JavascriptMode.unrestricted,
-        initialMediaPlaybackPolicy: AutoMediaPlaybackPolicy.always_allow,
-      ),
-    );
+        appBar: AppBar(),
+        body: WebView(
+          initialUrl: url,
+          javascriptMode: JavascriptMode.unrestricted,
+          initialMediaPlaybackPolicy: AutoMediaPlaybackPolicy.always_allow,
+        ));
   }
 }
