@@ -6,7 +6,7 @@ import 'package:flutter/painting.dart';
 import '../app_data.dart';
 
 class CoursesPage extends StatelessWidget {
-  static String id = 'CoursesPage';
+  static String id = '/CoursesPage';
 
   const CoursesPage({Key? key}) : super(key: key);
 

@@ -47,9 +47,9 @@ const coursesData = [
 ];
 
 const mainMenuData = [
-  Menu(title: 'Courses', navId: 'CoursesPage', url: ''),
-  Menu(title: 'Drives', navId: 'DrivesPage', url: ''),
-  Menu(title: 'Social media', navId: 'SocialMedia', url: ''),
+  Menu(title: 'Courses', navId: '/CoursesPage', url: ''),
+  Menu(title: 'Drives', navId: '/DrivesPage', url: ''),
+  Menu(title: 'Social media', navId: '/SocialMedia', url: ''),
   Menu(
       title: 'Alexandria Engineering libraries',
       navId: 'Web',
@@ -89,4 +89,10 @@ const drives = [
       navId: 'Web',
       url:
           'https://drive.google.com/drive/folders/14WdRpp_SMEqHXi8-PA-aYzS-N-6-sfEr'),
+];
+  Menu(
+      title: 'Telegram channel (جروب التليجرام)',
+      navId: 'Web',
+      url:
+      'https://t.me/joinchat/kvjGQzUG2jBiYzU0'),
 ];

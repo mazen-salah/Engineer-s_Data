@@ -4,7 +4,7 @@ import '../app_data.dart';
 
 class DrivesScreen extends StatelessWidget {
   const DrivesScreen({Key? key}) : super(key: key);
-  static String id = 'DrivesPage';
+  static String id = '/DrivesPage';
 
   @override
   Widget build(BuildContext context) {
