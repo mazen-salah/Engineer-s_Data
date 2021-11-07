@@ -90,6 +90,23 @@ const drives = [
       url:
           'https://drive.google.com/drive/folders/14WdRpp_SMEqHXi8-PA-aYzS-N-6-sfEr'),
 ];
+
+const socials = [
+  Menu(
+      title: 'Facebook group (الدفعة)',
+      navId: 'Web',
+      url:
+      'https://www.facebook.com/groups/4370607863017512/?ref=share'),
+  Menu(
+      title: 'Facebook group (الاتحاد)',
+      navId: 'Web',
+      url:
+      'https://www.facebook.com/alexeng.student.union/'),
+  Menu(
+      title: 'Facebook group (اللجنة الاجتماعية)',
+      navId: 'Web',
+      url:
+      'https://www.facebook.com/alexeng.social.committee/'),
   Menu(
       title: 'Telegram channel (جروب التليجرام)',
       navId: 'Web',
