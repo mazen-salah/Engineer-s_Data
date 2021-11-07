@@ -1,5 +1,6 @@
 import 'package:engineers_data/screens/courses_page.dart';
 import 'package:engineers_data/screens/drives_page.dart';
+import 'package:engineers_data/screens/social_media.dart';
 import 'package:engineers_data/screens/web_view.dart';
 import 'package:flutter/material.dart';
 import 'home_view.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         CoursesPage.id: (context) => const CoursesPage(),
         DrivesScreen.id: (context) => const DrivesScreen(),
         WebPage.id: (context) => const WebPage(),
+        SocialMediaScreen.id: (context) => const SocialMediaScreen(),
       },
     );
   }

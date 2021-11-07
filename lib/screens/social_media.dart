@@ -2,8 +2,8 @@ import 'package:engineers_data/custom%20widgets/item_view.dart';
 import 'package:flutter/material.dart';
 import '../app_data.dart';
 
-class DrivesScreen extends StatelessWidget {
-  const DrivesScreen({Key? key}) : super(key: key);
+class SocialMediaScreen extends StatelessWidget {
+  const SocialMediaScreen({Key? key}) : super(key: key);
   static String id = '/SocialMedia';
 
   @override
