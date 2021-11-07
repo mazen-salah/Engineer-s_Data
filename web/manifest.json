@@ -1,11 +1,11 @@
 {
-    "name": "engineers_data",
-    "short_name": "engineers_data",
+    "name": "Engineer's Data",
+    "short_name": "Engineer's Data",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Companion app for Faculty of Engineering, Alexandria University students",
+    "description": "app for 'Faculty of Engineering, Alexandria University' students",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
