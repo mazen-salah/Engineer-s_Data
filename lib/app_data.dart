@@ -67,6 +67,10 @@ const mainMenuData = [
       title: 'Office hours',
       navId: 'Web',
       url: 'https://justpaste.it/electroOfficeHours'),
+  Menu(
+      title: 'Ibn El Haytham',
+      navId: 'Web',
+      url: 'https://alexu.mans.edu.eg/static/index.html#'),
 ];
 
 const drives = [
