@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Companion app for " Faculty of Engineering, Alexandria University " students",
+    "description": "Companion app for Faculty of Engineering, Alexandria University students",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
